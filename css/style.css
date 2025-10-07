@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background-color: #00bcd4;
+  padding: 10px 20px;
+  color: white;
+}
+
+header nav h1 {
+  display: inline-block;
+  margin: 0;
+}
+
+header nav ul {
+  display: inline-block;
+  list-style: none;
+  float: right;
+}
+
+header nav ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.hero img {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+  opacity: 0.8;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero-text .btn {
+  background-color: teal;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-top: 10px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.services-preview {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.services-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 250px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 20px;
+}
+
+footer a {
+  color: #00bcd4;
+  text-decoration: none;
+}
